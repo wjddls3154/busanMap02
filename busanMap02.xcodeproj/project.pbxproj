@@ -12,6 +12,7 @@
 		147E543921881841004DCC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147E543721881841004DCC4B /* Main.storyboard */; };
 		147E543B21881843004DCC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E543A21881843004DCC4B /* Assets.xcassets */; };
 		147E543E21881843004DCC4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147E543C21881843004DCC4B /* LaunchScreen.storyboard */; };
+		147E54472188195E004DCC4B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147E54462188195E004DCC4B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		147E543A21881843004DCC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147E543D21881843004DCC4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147E543F21881843004DCC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147E54462188195E004DCC4B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147E54472188195E004DCC4B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				147E543221881841004DCC4B /* busanMap02 */,
 				147E543121881841004DCC4B /* Products */,
+				147E54452188195D004DCC4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				147E543F21881843004DCC4B /* Info.plist */,
 			);
 			path = busanMap02;
+			sourceTree = "<group>";
+		};
+		147E54452188195D004DCC4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147E54462188195E004DCC4B /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
